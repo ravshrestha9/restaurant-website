@@ -43,7 +43,7 @@ $(window).scroll(function(){
     //ripples
     $("#header, .info").ripples({
         dropRadius: 10,
-        perturbance: 0.6,
+        perturbance: 0.2,
     });
 
     $('.parent-container').magnificPopup({
