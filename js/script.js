@@ -40,20 +40,20 @@ $(window).scroll(function(){
 })
 
 
-    //ripples
-    $("#header, .info").ripples({
-        dropRadius: 10,
-        perturbance: 0.2,
-    });
+    // //ripples
+    // $("#header, .info").ripples({
+    //     dropRadius: 10,
+    //     perturbance: 0.2,
+    // });
 
-    $('.parent-container').magnificPopup({
-        delegate: 'a', // child items selector, by clicking on it popup will open
-        type: 'image',
+    // $('.parent-container').magnificPopup({
+    //     delegate: 'a', // child items selector, by clicking on it popup will open
+    //     type: 'image',
 
-        gallery:{
-            enabled: true,
-        } 
-        // other options
-      });
+    //     gallery:{
+    //         enabled: true,
+    //     } 
+    //     // other options
+    //   });
     
 });
